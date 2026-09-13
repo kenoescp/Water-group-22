@@ -18,6 +18,12 @@ The user requested a focused Madrid data-coverage pass on the existing branch, w
 
 Result: Madrid data-coverage research and implementation in progress; remote actions intentionally skipped.
 
+## Entry 4 — 2026-09-13
+
+The user requested three final UX/data-clarity improvements on the current branch, with no broad redesign and no push, pull request, or merge: distinguish Madrid pressure-signal count from 6/7 data coverage in the main decision display; verify that the Open-Meteo precipitation dates, indexing, 30-day/90-day totals, and chart rendering are correct without altering real observations, preferably show the longer 90-day history with clear totals; and replace the hero slogan with “See water conditions before they escalate.” The user requested browser testing of precipitation calculations/rendering, local commit, and updated prompt logging.
+
+Result: Final clarity pass in progress; remote actions intentionally skipped.
+
 ## Result — 2026-09-13
 
-Madrid now uses six credible/current or recent public indicators: live Open-Meteo precipitation and temperature, a Canal de Isabel II reservoir snapshot, Canal de Isabel II consumption snapshot, MITECO Tajo official scarcity status, and a Copernicus EDO CDI v4.1 WCS-derived snapshot. Groundwater remains unavailable and is excluded from current scoring. Browser tests covered Madrid data loading, current/scenario separation, reservoir and categorical controls, all five cities, scenario score transitions, and console errors; no errors were reported. Changes were committed locally only; no push, pull request, or merge was performed.
+Final clarity pass completed locally. The main decision display now separates status, pressure-signal count, and data coverage. The precipitation request preserves 90 calendar dates and null observations, renders 90 bars with missing-data gaps, and shows verified 30-day/90-day totals with valid-observation counts. The hero slogan and supporting copy were updated. Browser verification passed for visible rendering, exact returned date range, totals, scenario/current separation, and console errors; no push, pull request, or merge was performed.
