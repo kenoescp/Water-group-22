@@ -222,3 +222,54 @@ Do NOT merge.
 Stop after the local visual review so I can approve the new blue palette first.
 
 Result: Applied a focused blue/water palette override without changing layout, typography, components, data, scoring, charts, or interactions. Desktop browser review confirmed navy decision surfaces, blue-teal accents, pale blue backgrounds, distinct LIVE/OFFICIAL/PROTOTYPE/UNAVAILABLE badges, readable status differentiation, selected-city styling, chart accents, and working Scenario Explorer controls; console errors were clear. Changes were committed locally; no push, pull request, or merge was performed.
+## Entry 7 — 2026-09-13
+
+Before pushing or merging anything, verify that we are working in the correct Git repository.
+
+The correct GitHub repository is:
+kenoescp/Water-group-22
+
+The correct final target branch is:
+main
+
+Please check and report:
+
+1. The absolute path of the local repository you are currently working in.
+2. The current Git branch.
+3. The configured Git remote named `origin`.
+4. Confirm that `origin` points to my repository:
+   kenoescp/Water-group-22
+5. Confirm that the AquaSignal files we have been editing are inside this Git repository and are tracked by Git.
+6. Show the latest local commits and confirm that our newest AquaSignal changes are included.
+7. Compare the current branch with `main` and briefly tell me what will be added to main if we merge it.
+
+Do NOT push anything.
+Do NOT create a pull request.
+Do NOT merge anything.
+
+Only verify the repository, branch, files and remote, then report back to me.
+
+Result: Repository audit completed without fetching or changing AquaSignal code. Confirmed the correct local repository, branch, origin remote, tracked project files, newest local AquaSignal commits, and the committed diff from main; no push, pull request, or merge was performed.
+
+## Entry 8 — 2026-09-13
+
+Everything is verified and this is the correct repository.
+
+Please now make the current approved AquaSignal version the official main version.
+
+1. Commit the remaining verification prompt-log change.
+2. Push the current branch `data-credibility-scenario-e263117` to `kenoescp/Water-group-22`.
+3. Create a pull request from this branch into `main`.
+4. Double-check that the PR targets `kenoescp/Water-group-22`, NOT the original school/template repository.
+5. Merge the pull request into `main`.
+6. After merging, verify that GitHub `main` contains the latest AquaSignal version and all current commits.
+7. Update my local `main` so it matches the new GitHub `main`.
+
+Do not delete any project files or branches.
+
+When finished, report:
+
+- PR number
+- whether the merge succeeded
+- final main commit
+- confirmation that local main and GitHub main are synchronized
