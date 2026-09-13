@@ -143,3 +143,82 @@ Do NOT merge anything.
 Stop after local testing so I can review the result first.
 
 Result: Implemented the focused chart, hero, and decision-signal improvements. Browser verification at 1280×900 confirmed 90 rainfall slots with 66 rendered observations, 24 preserved gaps, visible rainfall events, exact 30-day/90-day totals, the required two-line headline, all four risk levels with Alert highlighted, and the dynamic action/scenario behavior; console errors were clear. Changes were committed locally; no push, pull request, or merge was performed.
+## Entry 6 — 2026-09-13
+
+Make a focused COLOR PALETTE update only.
+
+Do not redesign the layout, spacing, typography, components, data logic, scoring, charts, or interactions.
+
+The current AquaSignal design uses many different green tones. I want to keep the same professional visual hierarchy and use of multiple related shades, but shift the palette toward BLUE / WATER tones.
+
+GOAL:
+Make the interface feel more naturally connected to water, drought monitoring and municipal infrastructure.
+
+Use a restrained professional water-inspired palette such as:
+
+- deep navy / dark blue for primary dark panels and key decision areas
+- medium blue / teal-blue for accents and highlights
+- light aqua / pale blue for soft backgrounds, chips and secondary surfaces
+- muted blue-grey for borders and secondary text
+
+Keep enough variation between shades so the dashboard does not become flat or monochrome.
+
+IMPORTANT:
+
+- Do NOT make everything the same blue.
+- Preserve clear contrast and readability.
+- Preserve visual hierarchy between primary panels, secondary cards, labels and status elements.
+- Avoid bright “tech startup” neon blue.
+- Avoid making the interface look cold or corporate-finance-like.
+- Keep it calm, premium and appropriate for a municipal water decision-support dashboard.
+
+STATUS COLORS:
+Do NOT force all risk statuses into blue if that reduces clarity.
+
+Keep meaningful status differentiation where appropriate:
+
+- Normal can remain a calm blue/teal
+- Watch can use a muted yellow/amber
+- Alert can use orange
+- Emergency can use red
+
+The overall AquaSignal brand/interface should become blue-based, while risk statuses should remain intuitively distinct.
+
+SPECIFIC AREAS TO UPDATE:
+
+- AquaSignal logo/accent color
+- hero accents
+- current decision signal panel
+- buttons and selected city states
+- indicator chips
+- links
+- chart accents
+- Scenario Explorer controls
+- borders / subtle background tones
+- badges
+
+Do not alter the meaning of LIVE / CURRENT OFFICIAL / PROTOTYPE / UNAVAILABLE labels. Only adjust their colors if needed for better fit with the new palette, while keeping them visually distinct.
+
+Preserve the current professional design exactly apart from the palette.
+
+Test the final result in the browser and check:
+
+- text contrast
+- readability
+- status differentiation
+- selected buttons
+- charts
+- sliders
+- badges
+- desktop consistency
+
+Work on the current branch.
+Commit the palette changes and required prompt log locally.
+
+Do NOT push.
+Do NOT create a PR.
+Do NOT merge.
+
+Stop after the local visual review so I can approve the new blue palette first.
+
+Result: Applied a focused blue/water palette override without changing layout, typography, components, data, scoring, charts, or interactions. Desktop browser review confirmed navy decision surfaces, blue-teal accents, pale blue backgrounds, distinct LIVE/OFFICIAL/PROTOTYPE/UNAVAILABLE badges, readable status differentiation, selected-city styling, chart accents, and working Scenario Explorer controls; console errors were clear. Changes were committed locally; no push, pull request, or merge was performed.
