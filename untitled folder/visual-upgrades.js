@@ -25,7 +25,9 @@
     const c = current.textContent || '—', s = scenario.textContent || '—';
     change.textContent = c === s ? '→ No change in pressure points' : `→ ${c} to ${s}`;
   };
-  const observe = () => { renderDrivers(); renderScenario(); };
-  new MutationObserver(observe).observe(document.body, {subtree:true, childList:true, characterData:true});
+  let observer;
+  const observe = () => { observer?.disconnect(); renderDrivers(); renderScenario(); observer?.observe(document.body, {subtree:true, childList:true, characterData:true}); };
+  observer = new MutationObserver(observe);
+  observer.observe(document.body, {subtree:true, childList:true, characterData:true});
   observe();
 })();
