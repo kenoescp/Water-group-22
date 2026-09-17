@@ -47,3 +47,7 @@ These questions aren't here to slow you down — they're part of what's being ev
 ## Our Approach
 
 *[To be filled in by the team at the end.]*
+
+## Team Collaboration Note
+
+Our six-person team worked in pairs on shared computers. Some GitHub commits and Codex prompt logs therefore represent work completed collaboratively by two team members.
